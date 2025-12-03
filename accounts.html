@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankpro - Accounts Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">BankPro</div>
+
+                <div class="nav-links">
+                    <a href="accounts.html">Go Accounts</a>
+                    <a href="transactions.html">Go Transactions</a>
+                </div>
+
+                <div class="nav-icons">
+                    <div class="nav-icon" title="Search">S</div>
+                    <div class="nav-icon" title="Profile">P</div>
+                </div>
+            </nav>
+
+            <div class="banner">
+                <div>
+                    <div class="banner-title">BankPro</div>
+                    <div class="banner-subtitle">Modern Banking. Track. Manage. Grow.</div>
+                </div>
+            </div>
+        </div>
+     </header>
+
+    <!-- Main Content -->
+     <main class="container">
+        <section class="main-layout">
+            <!-- Filters -->
+            <aside class="filters">
+                <class="filters-section">
+                    <h3>Filter by Account Type</h3>
+                    <label class="filter-option">
+                        <input type="checkbox">Savings Account
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox">Current Account
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox">Fixed Deposit
+                    </label>
+                    <label class="filter-option">
+                        <input type="checkbox">Salary Account
+                    </label>
+                  </div>
+                    <div class="filter-section">
+                        <h3>Filter by Status</h3>
+                        <label class="filter-option">
+                            <input type="radio" name="status">Active
+                        </label>
+                        <label class="filter-option">
+                            <input type="radio" name="status">Inactive
+                        </label>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Search Accounts</h3>
+                        <div class="search-box">
+                            <input type="text" placeholder="Account no. or name">
+                        </div>
+                    </div>
+            </aside>
+
+            <!-- Accounts List -->
+             <section class="accounts-section">
+                <div class="section-header">
+                    <h2>Account Overview</h2>
+                    <span>Showing 4 accounts</span>
+                </div>
+
+                <div class="accounts-grid">
+                    <!-- Card 1 -->
+                     <article class="account-card">
+                        <div class="account-holder">Siddhu Ch</div>
+                        <div class="account-number">Acc No: 1234 5678 9012</div>
+                        <div class="account-balance">₹ 1,25,000.50</div>
+                        <div class="account-meta">
+                            <span>Type: Savings</span>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+
+                        <div class="view-details-wrapper">
+                            <a href="single_account.html" class="btn view-btn">View Details</a>
+                        </div>
+                     </article>
+
+                     <!-- Card 2 -->
+                      <article class="account-card">
+                        <div class="account-holder">Ananya Sharma</div>
+                        <div class="account-number">Acc No:9876 5432 1098</div>
+                        <div class="account-balance">₹ 3,40,000.00</div>
+                        <div class="account-meta">
+                            <span>Type: Salary</span>
+                            <span class="badge badge-success">Active</span>
+                        </div>
+
+                        <div class="view-details-wrapper">
+                            <a href="single_account.html" class="btn view-btn">View Details</a>
+                        </div>
+                      </article>
+
+                      <!-- Card3 -->
+                       <article class="account-card">
+                            <div class="account-holder">Deekonda Chandu</div>
+                            <div class="account-number">Acc No: 4567 8901 2345</div>
+                            <div class="account-balance">₹ 75,500.75</div>
+                            <div class="account-meta">
+                                    <span>Type: Current</span>
+                                    <span class="badge badge-inactive">Inactive</span>
+                            </div>
+
+                            <div class="view-details-wrapper">
+                            <a href="single_account.html" class="btn view-btn">View Details</a>
+                            </div>
+                       </article>
+
+                       <!-- Card 4 -->
+                        <article class="account-card">
+                            <div class="account-holder">Nithin Tadaka</div>
+                            <div class="account-number">Acc No: 2222 3333 4444</div>
+                            <div class="account-balance">₹ 5,00,000.00</div>
+                            <div class="account-meta">
+                                <span>Type: Fixed Deposit</span>
+                                <span class="badge badge-success">Active</span>
+                            </div>
+
+                            <div class="view-details-wrapper">
+                                <a href="single_account.html" class="btn view-btn">view Details</a>
+                            </div>
+                        </article>
+                </div>
+             </section>
+        </section>
+
+        <!-- Partner Banks -->
+         <section class="partner-section">
+            <h3>Our Partner Banks</h3>
+            <div class="partner-slider">
+                <div class="partner-track">
+                    <img src="assets/images/partner1.png" alt="partner 1" class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partner 2" class="partner-logo">
+                    <img src="assets/images/partner3.png" alt="Partner 3" class="partner-logo">
+                    <img src="assets/images/partner4.png" alt="Partner 4" class="partner-logo">
+                    <img src="assets/images/partner5.png" alt="Partner 5" class="partner-logo">
+
+                    <!-- repeat to make sliding loop smooth -->
+                    <img src="assets/images/partner1.png" alt="Partner 1" class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partner 2" class="partner-logo">
+                </div>
+            </div>
+         </section>
+
+         <!-- Newsletter -->
+          <section class="newsletter">
+            <div class="newsletter-text">
+                <h3>NEWSLETTER</h3>
+                <p>Get the latest updates on offers, interest rates and new features.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="button" class="btn">Subscribe</button>
+            </form>
+          </section>
+
+          <!-- Services -->
+           <section class="services">
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <div class="service-title">Secure Banking</div>
+                <p>Multi-layer encryption and secure authentication to keep your money safe.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <div class="service-title">24x7 Support</div>
+                    <p>Dedicated customer care whenever you need help with your accounts.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <div class="service-title">Fast Transactions</div>
+                <p>Instant transfers and payments so your money is always where you need it.</p>
+            </div>
+           </section>
+     </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo-box">BANKPRO</div>
+
+            <div class="footer-social">
+                <span title="Facebook">f</span>
+                <span title="Twitter">t</span>
+                <span title="YouTube">y</span>
+                <span title="LinkedIn">li</span>
+                <span title="Instagram">in</span>
+            </div>
+
+             <div class="footer-contact">
+                <p>BankPro HQ, Future City, Hyderabad, India</p>
+                <p>Phone: +91-99999-00000</p>
+                <p>Email: support@bankpro.com</p>
+            </div>
+        </div>
+        <p style="text-align: center;">Project Developed by Siddhu Ch</p>
+     </footer>
+</body>
+</html>

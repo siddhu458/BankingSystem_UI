@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankPro - Account Details</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+     <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">BankPro</div>
+
+                <div class="nav-links">
+                    <a href="accounts.html">Go Accounts</a>
+                    <a href="transactions.html">Go Transactions</a>
+                </div>
+
+                <div class="nav-icons">
+                    <div class="nav-icon" title="Search">S</div>
+                    <div class="nav-icon" title="Profile">P</div>
+                </div>
+            </nav>
+
+            <div class="banner">
+                <div>
+                    <div class="banner-title">BankPro</div>
+                    <div class="banner-subtitle">Modern Banking. Track. Manage. Grow.</div>
+                </div>
+            </div>
+        </div>
+     </header>
+
+
+     <main class="container">
+        <section class="single-account-wrapper">
+            <!-- single account info -->
+             <article class="account-info-card">
+                <h2>Account Overview</h2>
+                <p class="account-number">Acc No: 1234 5678 9012</p>
+
+                <div class="account-info-grid">
+                    <div>
+                        <div class="account-label">Account Holder</div>
+                        <div>Siddhu Ch</div>
+                    </div>
+                    <div>
+                        <div class="account-label">Account Type</div>
+                        <div>Savings Account</div>
+                    </div>
+                    <div>
+                        <div class="account-label">status</div>
+                        <div><span class="badge badge-success">Active</span></div>
+                    </div>
+                    <div>
+                        <div class="account-label">Account Created</div>
+                        <div>2023-06-15</div>
+                    </div>
+                    <div>
+                        <div class="account-label">Branch</div>
+                        <div>Hyderabad Main Branch</div>
+                    </div>
+                </div>
+
+                <div class="account-actions">
+                    <button class="btn">Deposit</button>
+                    <button class="btn">Withdraw</button>
+                    <button class="btn">Transfer</button>
+                    <button class="btn btn-secondary">Download Statements</button>
+                </div>
+             </article>
+
+             <!-- Optional Transfer Card -->
+              <article class="transfer-card">
+                <h3>Quick Transfer (Static)</h3>
+                <p style="font-size:0.9rem; color:#6b7280; margin-bottom:0.7rem;">
+                    This is a placeholder transfer panel. In a real app, you would enter account and amount details here.
+                </p>
+                 <div style="display:flex; flex-direction:column; gap:0.4rem;">
+                    <input type="text" placeholder="Beneficiary Account Number"
+                           style="padding:0.45rem 0.6rem; border-radius:8px; border:1px solid #d1d5db;">
+                    <input type="text" placeholder="Beneficiary Name"
+                           style="padding:0.45rem 0.6rem; border-radius:8px; border:1px solid #d1d5db;">
+                    <input type="number" placeholder="Amount"
+                           style="padding:0.45rem 0.6rem; border-radius:8px; border:1px solid #d1d5db;">
+                    <button class="btn" type="button" style="margin-top:0.3rem;">Send (Static)</button>
+                </div>
+              </article>
+        </section>
+
+        <!-- Transaction Table -->
+         <section class="transactions-table-wrapper">
+            <h3>Recent Transactions</h3>
+            <table class="transactions-table">
+                <thead>
+                    <tr>
+                        <th>Txn ID</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TXN001</td>
+                        <td>DEPOSIT</td>
+                        <td>₹ 1,000.00</td>
+                        <td>2025-01-01</td>
+                        <td><span class="badge-status-success">SUCCESS</span></td>
+                    </tr>
+                    <tr>
+                         <td>TXN003</td>
+                        <td>TRANSFER</td>
+                        <td>₹ 200.00</td>
+                        <td>2025-01-01</td>
+                        <td><span class="badge-status-success">SUCCESS</span></td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <!-- Partner Banks -->
+          <section class="partner-section">
+            <h3>Our Partner Banks</h3>
+            <div class="partner-slider">
+                <div class="partner-track">
+                    <img src="assets/images/partner1.png" alt="Partner 1" class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partner 2" class="partner-logo">
+                    <img src="assets/images/partner3.png" alt="Partner 3" class="partner-logo">
+                    <img src="assets/images/partner4.png" alt="Partner 4" class="partner-logo">
+                    <img src="assets/images/partner5.png" alt="Partner 5" class="partner-logo">
+                    <img src="assets/images/partner1.png" alt="Partner 1" class="partner-logo">
+                    <img src="assets/images/partner2.png" alt="Partner 2" class="partner-logo">
+                    <img src="assets/images/partner3.png" alt="Partner 3" class="partner-logo">
+                </div>
+            </div>
+          </section>
+
+          <!-- Newsletter -->
+           <section class="newsletter">
+            <div class="newsletter-text">
+                <h3>NEWSLETTER</h3>
+                <p>Stay updated with statements, offers, and security alerts.</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="button" class="btn">Subscribe</button>
+            </form>
+           </section>
+
+           <!-- Services -->
+            <section class="services">
+                <div class="service-card">
+                    <div class="services-icon"></div>
+                    <div class="service-title">Secure Banking</div>
+                    <p>Robust security and fraud monitoring for every transaction.</p>
+                </div>
+               <div class="service-card">
+                <div class="service-icon"></div>
+                <div class="service-title">24x7 Support</div>
+                <p>Reach our support team anytime for account-related help.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"></div>
+                <div class="service-title">Fast Transactions</div>
+                <p>RTGS, NEFT, UPI and IMPS with near-instant settlement.</p>
+            </div>
+            </section>
+     </main>
+
+     <!-- Footer -->
+      <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo-box">BANKPRO</div>
+            <div class="footer-social">
+                <span title="Facebook">f</span>
+                <span title="Twitter">t</span>
+                <span title="Youtube">y</span>
+                <span title="LinkedIn">li</span>
+                <span title="Instagram">in</span>
+            </div>
+
+            <div class="footer-contact">
+                <p>BankPro HQ, Future City, Hyderabad, India</p>
+                <p>Phone: +91-99999-00000</p>
+                <p>Email: support@bankpro.com</p>
+            </div>
+        </div>
+        <p style="text-align: center;">Project Developed by Siddhu Ch</p>
+      </footer>
+</body>
+</html>
