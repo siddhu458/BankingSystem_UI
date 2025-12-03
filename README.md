@@ -1,4 +1,5 @@
 BankPro — Banking System UI (HTML + CSS)
+
 BankPro is a static Banking Dashboard UI built using HTML and CSS only.
 This project includes multiple structured pages such as Account Dashboard, Single Account Details, and Transactions Page with visually rich banking elements such as partner logos, newsletter, service cards, and a responsive layout.
 
@@ -25,9 +26,9 @@ banking-ui/
 Pages Overview
 index.html
 Landing page of the project featuring:
--> Header with logo and navigation
--> Banner with title + subtitle
--> Welcome message and action buttons
+1. Header with logo and navigation
+2. Banner with title + subtitle
+3. Welcome message and action buttons
 
 accounts.html (Checkpoint 1 — Account Dashboard)
 Contains:
