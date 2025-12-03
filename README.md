@@ -64,18 +64,32 @@ How to Run the Project
 Tip: For best performance, run using a local server (VS Code “Live Server” extension).
 
 Tech Stack
+
+
 Technology	Purpose
+
 HTML5	Structure
+
 CSS3	Styling & layout
+
+
 No JavaScript	All interactions are static
+
 Future Enhancements (optional ideas)
+
 Enhancement	Description
+
 Login system	Add authentication using JS / backend
+
 Real API data	Use backend to fetch accounts & transactions
+
 Sorting & search	Make filters functional
+
 Dark mode	Add color theme toggle
+
 Role-based dashboard	Admin / user panels
 
 Credits
 Project design & development guide by *Siddhu Chaparthi*
+
 Graphics and icons are generated/created for educational use.
